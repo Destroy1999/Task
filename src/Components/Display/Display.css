@@ -1,0 +1,6 @@
+.displayContainer{
+    width: 92%;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}

@@ -1,0 +1,56 @@
+.cartBody{
+    border-radius: 50px;
+    width: 70%;
+    height: 400px;
+    margin-top: 50px;
+    border: solid 2px;
+    box-shadow: 2px 2px 3px black;
+    position: relative;
+}
+
+.cartBody img{
+    position: absolute;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.cartBody h2{
+    position: absolute;
+    top: 25px;
+    color: black;
+    text-shadow: 0 0 3px white;
+    font-weight: bold;
+    font-size: 25px;
+    left: 25px;
+    z-index: 2;
+}
+.cartBody h3{
+    position: absolute;
+    top: 55px;
+    color: black;
+    text-shadow: 0 0 3px white;
+    font-weight: bold;
+    font-size: 20px;
+    left: 25px;
+    z-index: 2;
+}
+
+.cartBody h4{
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    color: black;
+    text-shadow: 0 0 3px white;
+    font-weight: bold;
+    font-size: 25px;
+    right: 25px;
+}
+
+.cartBody .startIco{
+    position: absolute;
+    z-index: 2;
+    bottom: 25px;
+    font-size: 25px;
+    left: 25px;
+    cursor: pointer;
+}
